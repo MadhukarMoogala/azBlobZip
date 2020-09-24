@@ -9,6 +9,13 @@ Most of my searches went in vain, either they are related to ASP .NET or not wor
 
 This project is based on ASP .NET Core 3.1 technology, I have created a single REST endpoint `api/download` that will serve a zip file to the client, we can pass this server endpoint to Forge Design Automation services, `workitem` input URL.
 
+## Demo
+
+![Demo.Gif](https://github.com/MadhukarMoogala/azBlobZip/blob/master/azblobzip.gif)
+
+
+
+
 ## Prerequisites
 - **ASP .NET Core** basic knowledge with C#
 - [Azure Account](https://azure.microsoft.com/en-in/)
@@ -37,7 +44,7 @@ This project is based on ASP .NET Core 3.1 technology, I have created a single R
   ```
 
 ```bash
-git clone https://github.com/MadhukarMoogala/azBlobZip
+git clone https://github.com/MadhukarMoogala/azBlobZip.git
 cd azBlobZip
 dotnet restore
 dotnet build
